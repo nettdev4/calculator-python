@@ -9,7 +9,7 @@ while True:
     print("Операции: '+', '-', '*', '/'")
     print("Для выхода введите 'Q'")
 
-    operation = input("Выберете операцию: ")
+    operation = input("Выберите операцию: ")
 
     if operation.lower() =='q':
         print("Пока")
@@ -17,13 +17,13 @@ while True:
     
     if operation not in ('+', '-', '*', '/'):
         input("Неверная операция. Нажиите Enter......")
-        break
+        continue
     
     clear_screen()
     
     try:
         num1 = float(input("Введите первое число: "))
-        num2 = float(input("Введите пвторое число: "))
+        num2 = float(input("Введите второе число: "))
     except ValueError:
         input("Ошибка. Вводите Числа. Нажмите Enter......")
         continue
