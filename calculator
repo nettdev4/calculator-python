@@ -44,4 +44,3 @@ while True:
     
     print(f"{num1} {operation} {num2} = {result}")
     input("Нажмите Enter для продолжения......")
-    
