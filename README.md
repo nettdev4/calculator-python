@@ -17,3 +17,6 @@
 
 ```bash
 python calculator.py
+
+## Автор
+nettdev
